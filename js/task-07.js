@@ -5,4 +5,4 @@ const sizeControl = (event) => {
     text.style.fontSize = `${event.target.value}px`;
 }
 
-btn.addEventListener('change', sizeControl);
+btn.addEventListener('input', sizeControl);

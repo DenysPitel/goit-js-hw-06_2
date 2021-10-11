@@ -8,5 +8,5 @@ const change = (event) => {
         output.textContent = "незнакомец"
     }
 }
-input.addEventListener('change', change);
+input.addEventListener('input', change);
 
